@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="functions.js" defer></script>
+</head>
+<body>
+  <header class="banner">
+    <div class="vs-info">
+      <div class="person person1" style="--border-color: #8ab3f7;">
+        <img src="https://picsum.photos/75?random=1" alt="avatar">
+        <span>Christine</span>
+      </div>
+      <div>vs</div>
+      <div class="person person2" style="--border-color: #eb828b;">
+        <img src="https://picsum.photos/75?random=2" alt="avatar">
+        <span>Jordan</span></div>
+    </div>
+  </header>
+  <main>
+    <div class="chart-container">
+      <div class="radar-circles"></div>
+      <div class="stat-markers">
+        <div class="markers marker1" style="--marker-num: 0;">
+          <div class="marker-dot top" style="--dot-color: #eedaa3">
+            <div>Supporting</div>
+          </div>
+        </div>
+        <div class="markers marker2" style="--marker-num: 1;">
+          <div class="marker-dot right" style="--dot-color: #6c6e77">
+            <div>Versatility</div>
+          </div>
+        </div>
+        <div class="markers marker3" style="--marker-num: 2;">
+          <div class="marker-dot bottom" style="--dot-color: #8ab3f7">
+            <div>Farming</div>
+          </div>
+        </div>
+        <div class="markers marker4" style="--marker-num: 3;">
+          <div class="marker-dot bottom" style="--dot-color: #aeb2ac">
+            <div>Emotionless</div>
+          </div>
+        </div>
+        <div class="markers marker5" style="--marker-num: 4;">
+          <div class="marker-dot left" style="--dot-color: #ef87b8">
+            <div>Fighting</div>
+          </div>
+        </div>
+        <div class="markers marker6" style="--marker-num: 5;">
+          <div class="marker-dot top" style="--dot-color: #eb828b">
+            <div>Pushing</div>
+          </div>
+        </div>
+      </div>
+      <div class="radars">
+        <svg viewBox="-6.5 -6.5 13 13" xmlns="http://www.w3.org/2000/svg">
+          <path id="radar1" d="M0 0" />
+          <path id="radar2" d="M0 0" />
+        </svg>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
